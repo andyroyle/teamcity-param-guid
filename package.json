@@ -1,0 +1,26 @@
+{
+  "name": "teamcity-param-guid",
+  "version": "1.0.1",
+  "description": "sets a parameter using a guid",
+  "main": "index.js",
+  "dependencies": {
+    "node-uuid": "^1.4.7"
+  },
+  "bin": {
+    "teamcity-param-guid": "./bin/teamcity-param-guid.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andyroyle/teamcity-param-guid.git"
+  },
+  "author": "Andy Royle <ajroyle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyroyle/teamcity-param-guid/issues"
+  },
+  "homepage": "https://github.com/andyroyle/teamcity-param-guid#readme"
+}
